@@ -27,7 +27,9 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    const URL = 'http://localhost:8080/categproas';
+    const URL = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://amazonprimeflix.herokuapp.com/categorias';
     fetch(URL)
       .then(async (response) => {
         const json = await response.json();
