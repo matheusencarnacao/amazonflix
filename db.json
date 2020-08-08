@@ -1,0 +1,22 @@
+{
+    "categorias":[
+        {
+            "id": 1,
+            "nome": "Amazon Originals",
+            "descricao": "Filmes e Séries da Amazon.",
+            "cor": "#019ED3"
+        },
+        {
+            "id": 2,
+            "nome": "Disney",
+            "descricao": "Filmes e Séries da Disney.",
+            "cor": "#019ED3"
+        },
+        {
+            "id": 3,
+            "nome": "Fox",
+            "descricao": "Filmes e Séries da Fox.",
+            "cor": "#019ED3"
+        }
+    ]
+}
