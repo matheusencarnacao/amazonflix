@@ -1,22 +1,151 @@
 {
-    "categorias":[
-        {
-            "id": 1,
-            "nome": "Amazon Originals",
-            "descricao": "Filmes e Séries da Amazon.",
-            "cor": "#019ED3"
-        },
-        {
-            "id": 2,
-            "nome": "Disney",
-            "descricao": "Filmes e Séries da Disney.",
-            "cor": "#019ED3"
-        },
-        {
-            "id": 3,
-            "nome": "Fox",
-            "descricao": "Filmes e Séries da Fox.",
-            "cor": "#019ED3"
-        }
-    ]
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Amazon Originals",
+      "descricao": "Filmes e Séries da Amazon.",
+      "cor": "#019ED3",
+      "link_extra": {
+        "text": "Assine já",
+        "url": "https://www.primevideo.com/"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Disney",
+      "descricao": "Filmes e Séries da Disney.",
+      "cor": "#019ED3",
+      "link_extra": {
+        "text": "Os maiores sucessos do cinema",
+        "url": "https://www.youtube.com/watch?v=uqHM-KexL8Q"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Fox",
+      "descricao": "Filmes e Séries da Fox.",
+      "cor": "#019ED3",
+      "link_extra": {
+        "text": "Filmes da fox",
+        "url": "https://www.primevideo.com/e"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "American Gods",
+      "description": "Shadow Moon é um ex-vigarista que serve como segurança e companheiro de viagem para o Sr. Wednesday, um homem fraudulento que é, na verdade, um dos velhos deuses, e está na Terra em uma missão: reunir forças para lutar contra as novas entidades.",
+      "url": "https://www.youtube.com/watch?v=SHozrkt4Yt8"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "The Boys",
+      "url": "https://www.youtube.com/watch?v=cVHwlqyMyhM"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "The Man in The High Castle",
+      "url": "https://www.youtube.com/watch?v=69ha2minU_c"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Good Omens",
+      "url": "https://www.youtube.com/watch?v=4KN3Y5DlP_U"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Carnival Row",
+      "url": "https://www.youtube.com/watch?v=ehC6o-mpLNo"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Modern Love",
+      "url": "https://www.youtube.com/watch?v=yrN8zKewtkU"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "The Purge",
+      "url": "https://www.youtube.com/watch?v=kXOseWIIWzk"
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "Jack Ryan",
+      "url": "https://www.youtube.com/watch?v=frQAhTbmFtA"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Vingadores Ultimato",
+      "url": "https://www.youtube.com/watch?v=TcMBFSGVi1c"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Capitã Marvel",
+      "url": "https://www.youtube.com/watch?v=0LHxvxdRnYc"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Star Wars - O pior filme da saga",
+      "url": "https://www.youtube.com/watch?v=8Qn_spdM5Zg"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "Toy Story 4",
+      "url": "https://www.youtube.com/watch?v=wmiIUN-7qhE"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "O Rei Leão",
+      "url": "https://www.youtube.com/watch?v=J57HnR6FPW0"
+    },
+    {
+      "id": 14,
+      "categoriaId": 2,
+      "titulo": "Frozen 2",
+      "url": "https://www.youtube.com/watch?v=Zi4LMpSDccc"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "Prison Break",
+      "url": "https://www.youtube.com/watch?v=AL9zLctDJaU"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "Sons of Anarchy",
+      "url": "https://www.youtube.com/watch?v=_03DBXL3Srw"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "How I Met Your Mother",
+      "url": "https://www.youtube.com/watch?v=j4fmlNNL0tA"
+    },
+    {
+      "id": 18,
+      "categoriaId": 3,
+      "titulo": "American Horror Story",
+      "url": "https://www.youtube.com/watch?v=-9KZr2Vn7CQ"
+    },
+    {
+      "titulo": "Hanna",
+      "url": "https://www.youtube.com/watch?v=CNO7Wod5tSk",
+      "categoriaId": 1,
+      "id": 19
+    }
+  ]
 }
